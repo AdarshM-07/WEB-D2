@@ -309,14 +309,19 @@ nav {
     .c{
         display: none;
     }
+    .logo{
+        width: 600px;
+        height:50px ; 
+        top: 1rem;
+    }
     .hamburger-menu {
         display: block;
         /* Show the hamburger menu */
         position:absolute ;
         /* Fix the position */
-        top: 20px;
+        top: 1rem;
         /* Adjust as needed */
-        right: 20px;
+        right: 2%;
         /* Adjust as needed */
         /* z-index: 999; */
         /* Ensure it's above other elements */
@@ -325,7 +330,7 @@ nav {
 
     .hamburger-icon {
         width: 30px;
-        height: 20px;
+        height: 20%;
         background: transparent;
         border: none;
         outline: none;
